@@ -1,7 +1,12 @@
-body{
-    padding: 0%;
+* {
+    font-family:  Verdana, sans-serif;
+    color: white;
+}
+
+body {
     background-color: black;
 }
+
 #navbar {
     z-index: 1;
     position: fixed;
@@ -101,158 +106,126 @@ body{
    margin-top: 0px;
 }
 
-.po{
-    background-image: url(../pictures/images-22-1.jpg);
-    height: 700px;
-    width: 1565px;
-    justify-content: center;
-    justify-items: center;
-    margin-bottom: 0px;
-}
-.logo2{
-    width: 500px;
-    height: 180px;
-    margin-top: 25px;
-    padding-left: 550px;
-}
-.main{
-    color: white;
-    margin-top: 35px;
-    padding-left: 460px;
-    font-size: 80px;
-}
-.mainp{
-    color: white;
-    text-align: center;
-    font-size: 20px;
-    font-weight: bold;
-    font-family: Arial, Helvetica, sans-serif;
+
+/* --------------main body ----------- */
+
+
+#bg-picture {
+    margin-top: 100px;
+    height: 420px;
+    background-image: url(../pictures/pic3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
 
 }
-.button2{
-    color: #ffffff;
-    background-color: rgb(238, 40, 40);
-    border: solid rgb(238, 40, 40);
-    border-radius: 5px;
-    font-size: 17px;
-    height: 50px;
-    width: 180px;
-    margin-top: 50px;
-    margin-left: 700px;
-    cursor: pointer;
-    
-}
-.d2{
-    background-color: black;
-    margin: 0%;
-    padding-left: 45px;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    
-}
-.copy{
-    float: right;
-    width: 500px;
-    padding-right: 30px;
-    
-}
-.dis{
-    color: tomato;
-    font-weight: bold;
-    font-family: Arial, Helvetica, sans-serif;
+
+#heading-picture {
+    text-align: center;
     font-size: larger;
-    display: inline;
-    margin: 0px;
-}
-.p2{
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    color: #ffffff;
-    display: inline;
 }
 
-.he2{
-    color: #ffffff;
-    font-family: sans-serif bold;
+#heading-picture img {
+    width: 340px;
+    height: 80px;
+    position: relative;
+    top: 25px;
 }
-.mai{
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    color: #ffffff;
-    font-size: small;
-    margin-left: 0%;
-}
-.l2{
-    margin-left: 25px;
-}
-.hh{
-    padding-top: 300px;
-    color: white;
-    margin: 0%;
-    font-size: 30px;
-    padding-left: 630px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
-.hhh{
-    padding-top: 12px;
-    color: white;
-    margin: 0%;
-    font-size: 30px;
-    padding-left: 670px;
-}
-.oll{
-    background-image: url(../pictures/lp.jpg);
-    height: 700px;
-    width: 1550x;
-    margin: 0px;
-}
-.jkl{
-    background: url(../pictures/pl.jpg);
-    padding: 5px;
 
-}
-.kkk{
-    margin-left: 60px;
-}
-.kjk{
-    margin-left: 60px;
-}
-.kkj{
-    margin-left: 60px;
-}
-.are{
-    color: #ffffff;
+#heading-about {
+    font-size: 40px;
     text-align: center;
+}
+
+#para1 {
+    text-align: center;
+    font-size: 14px;
+}
+
+
+#box1 {
     margin-top: 40px;
+    width: 100%;
+    height: 600px;
+
 }
-.hjk{
-    color: #ffffff;
-    font-size: x-large;
+
+#heading2 {
+    text-align: center;
+    color: red;
 }
-.ert{
-    color: #ffffff;
-    display: inline;
-    margin-left: 250px;
-    
-    font-size: larger;
-    font-weight: bolder;
+
+#para2 {
+    text-align: center;
+    font-size: 12px;
 }
-.ery{
-    color: aliceblue;
-    display: inline;
-    margin-left: 350px;
+
+#box2 {
+    display: inline-block;
+
 }
-.eru{
-    color: #ffffff;
-    margin-left: 350px;
+
+#box2 img {
+    width: 320px;
+    height: 320px;
+    margin: 30px 30px 0px 150px;
+
 }
-.sss{
+
+#box3 {
+    width: 500px;
+    height: 300px;
+    display: inline-block;
+    position: absolute;
+    top: 800px;
+
+}
+
+#heading3 {
+    color: red;
+    margin-bottom: 0px;
+
+}
+
+#founder {
+    margin-top: 10px;
+}
+
+#para3 {
+    font-size: 15px;
+    line-height: 24px;
+
+}
+
+#box4 {
     margin-top: 50px;
-    font-size: x-large;
-    font-weight: bolder;
+
 }
+
+#para4 {
+    padding: 0px 160px 0px 160px;
+    font-size: 15px;
+    line-height: 30px;
+    text-align: center;
+}
+
+
+#box5>img {
+
+    width: 60%;
+    height: 350px;
+}
+
+#box5 {
+    text-align: center;
+    margin-top: 50px;
+
+}
+
+
+/* /*****footer**** */
+
 #footer-container {
-    background-color: black;
+    background-color: rgb(48, 46, 46);
     width: 100%;
     height: 400px;
     padding-top: 60px;
@@ -371,7 +344,4 @@ body{
 
 #button:hover {
     background-color: #ab3737;
-}
-.mnmn{
-    color: #ffffff;
 }
