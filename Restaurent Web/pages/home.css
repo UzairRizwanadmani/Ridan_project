@@ -102,7 +102,7 @@ body{
 }
 
 .po{
-    background-image: url(../pictures/images-22-1.jpg);
+    background-image: url(./images-22-1.jpg);
     height: 700px;
     width: 1565px;
     justify-content: center;
@@ -201,13 +201,13 @@ body{
     padding-left: 670px;
 }
 .oll{
-    background-image: url(../pictures/lp.jpg);
+    background-image: url(./lp.jpg);
     height: 700px;
     width: 1550x;
     margin: 0px;
 }
 .jkl{
-    background: url(../pictures/pl.jpg);
+    background: url(./pl.jpg);
     padding: 5px;
 
 }
